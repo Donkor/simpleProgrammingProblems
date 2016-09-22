@@ -1,0 +1,17 @@
+//Write a program that asks the user name and greets with name.
+
+Aswer:
+
+ ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string Name;
+            Console.WriteLine("Please Enter your Name");
+            Name = Console.ReadLine();
+            Console.WriteLine("Welcome {0} to my world",Name);
+        }
+    }
+}
